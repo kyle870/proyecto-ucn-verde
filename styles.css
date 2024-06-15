@@ -1,6 +1,5 @@
 body{
     background-image: url('./resources/background_SVG.svg');
-    /* background-size: cover; */
     background-repeat: repeat;
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* padding: 3rem 0; */
 }
 
 .frame_document{
