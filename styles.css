@@ -43,17 +43,14 @@ body{
 }
 
 #logo_ucn{
-    height: 5rem;
+    height: 4rem;
     width: fit-content;
     z-index: 1500;
-}
-
-/** animaciones svg */
-#logo_ucn{
     transition: all 1s;
     animation: appearLogo 2s;
 }
 
+/** animaciones svg */
 #first{
     transform-origin: center;
     animation: rotateFirst 3s linear infinite;
@@ -112,4 +109,11 @@ body{
     border: none;
     width: 100%;
     height: 100%;
+}
+
+/* mobile changes */
+@media screen and (max-width: 600px){
+    #logo_ucn{
+        height: 2rem;
+    }
 }

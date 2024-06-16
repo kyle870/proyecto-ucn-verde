@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     let iframe = document.querySelector('iframe');
     let preloader = document.getElementById('preloader_hojas');
