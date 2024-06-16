@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     let iframe = document.querySelector('iframe');
+    let container = document.getElementById('contenedor-loader');
     let preloader = document.getElementById('preloader_hojas');
     let preloaderImg = document.getElementById('logo_ucn');
 
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (e.propertyName === 'opacity' && preloader.style.opacity === '0') {
             preloader.style.display = 'none';
             preloaderImg.style.display = 'none';
+            container.style.display = 'none';
         }
     });
 });
